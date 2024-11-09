@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f8f9;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: rgb(53, 54, 57);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(67, 66, 66, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #eee9e8;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e8eff1;
+    color: #333;
+    border-radius: 5px;
+}
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about {
+    background-color: #e3eeef;
+    color: #067c7c;
+}
+
+.projects {
+    background-color: #e3eeef;
+    color: #00796b;
+}
+
+.skills {
+    background-color: #e3eeef;
+    color: #00796b;
+}
+
+.contact {
+    background-color: #e3eeef;
+    color: #00796b;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    position: relative;
+    color: inherit;
+}
+
+h2::after {
+    content: '';
+    height: 3px;
+    width: 50px;
+    background-color: #4a3f3d;
+    display: block;
+    margin: 10px auto;
+}
+
+.project, .skills ul {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.7em;
+    color: inherit;
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #574d4d;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #393333;
+}
+.contact a {
+    color: #373231;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #2f2a29;
+}
+
+footer {
+    background-color: #333;
+    color: #4c4343;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer a {
+    color: #2c2928;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
